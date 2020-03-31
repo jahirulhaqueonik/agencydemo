@@ -1,0 +1,283 @@
+/* ===================== */
+/* BASIC SETUP */
+/* ===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1.6rem;
+    color: #fff;
+    
+}
+ul li {
+
+    list-style-type: none;
+}
+
+/* ===================== */
+/* HEADER PART */
+/* ===================== */
+h1 {
+
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+}
+
+/* ===================== */
+/* RESUABLE COMPONENT */
+/* ===================== */
+.row {
+
+
+    max-width: 97.836rem;
+    margin: auto;
+    text-align: center;
+}
+
+/*.shape {
+
+    background: rgba(15, 115, 143, 0.7);
+    height: 25rem;
+    margin-top: 8rem;
+    margin-left: 0;
+    margin-right: 3rem;
+    padding: 0;
+    width: 80rem;
+}*/
+/*.musk {
+
+    background: url(img/musk.png);
+    background-attachment: fixed;
+    height: 28rem;
+    margin-top: 7rem;
+    margin-left: 0;
+}*/
+h2 {
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+h3 {
+
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.box {
+
+    padding: 0;
+}
+.box p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    color: #000;
+}
+
+/* Paragraph */
+.little-description {
+
+    font-size: 1.8rem;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 3rem;
+    color: #000;
+    text-align: center;
+}
+
+/* ===================== */
+/* HEADER sECTION */
+/* ===================== */
+header {
+    background: url(img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 66rem;
+    position: relative;
+}
+   
+.logo {
+
+    height: 3.5rem;
+    width: auto;
+    margin-top: 3.5rem;
+    float: left;
+}
+.hero-text-box {
+
+    width: 79rem;
+
+}
+
+/*main nevigation*/
+.main-nav {
+
+    float: right;
+    margin-top: 4rem;
+    margin-right: 10rem;
+}
+.main-nav li {
+
+    display: inline-block;
+    margin-right: -1rem;
+}
+.main-nav li:first-child {
+    margin-left: 0;;
+} 
+.main-nav li a:link,
+.main-nav li a:visited {
+   color: #fff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 1.4rem;
+   font-weight: 600;
+   padding: 4rem 1.6rem;
+   transition: .3s;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited {
+
+    color: #2a7f9b;
+
+}
+.main-nav li.active a {
+
+    color: #2a7f9b;
+
+}
+
+.logo-menu::after {
+    content: "";
+    display: block;
+    height: .4rem;
+    background: #726f71;
+    width: 97.836rem;
+    margin: auto;
+    margin-top: 3.8rem;
+}
+
+
+/* end main navigation*/
+
+.hero-text-box {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: -1rem;
+    
+    
+}
+
+.hero-text-box h1 {
+
+    text-align: left;
+}
+.hero-text-box .little-description {
+    text-align: left;
+    margin-left: 0;
+    margin-top: 2rem;
+    font-size: 1.09rem;
+    color: #fff;
+}
+
+
+/* ===================== */
+/* SERVICES SECTION */
+/* ===================== */
+.services-section {
+    color: #000;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.services-section h2 {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
+    color: #353235;
+    padding: 0;
+}
+
+.services-section .separator {
+
+    padding: 0;
+    margin-bottom: 1rem;
+    
+}
+.services-section .little-description {
+
+    width: 47rem;
+    font-size: 1.3rem;
+    padding: 0;
+    text-align: center;
+    margin-left: 25rem;
+    color: #b0acae;
+}
+
+.services-section .btm-height {
+
+    margin-bottom: 100px;
+    width: 97.836rem;;
+}
+.services-section .col:nth-child(3) {
+    margin-left: 0;
+}
+.services-section .col:nth-child(1),
+.services-section .col:nth-child(2) {
+    margin-top: 10rem;
+}
+.services-section .col:nth-child(3),
+.services-section .col:nth-child(4) {
+    margin-top: 5rem;
+}
+.services-section .col:nth-child(2),
+.services-section .col:nth-child(4) {
+
+    margin-left: 15px;
+}
+.services-section h3 {
+    font-size: 2rem;
+    color: #19c8fa;
+}
+.services-icons {
+
+    float: left;   
+    margin-left: 0;
+    width: 3rem;
+}
+.services-details {
+    width: 37rem;
+    float: left;
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+
+.services-details p {
+    color: #b0acae;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
