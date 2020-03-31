@@ -281,3 +281,13 @@ header {
     margin-top: 2rem;
     font-size: 1.3rem;
 }
+
+/* ===================== */
+/* SERVICES SECTION */
+/* ===================== */
+
+.portfolio-section .portfolio-img img{
+
+    width: 30rem;
+   
+}
